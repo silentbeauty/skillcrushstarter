@@ -1,0 +1,84 @@
+/* Homepage */
+.home {
+	background: url(img/Skillcrush_Mountains.jpg) no-repeat center 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 100%;
+}
+.home .page-header {
+	display: none;
+}
+.home .main-content {
+	width: 100%;
+	float: none;
+	overflow: hidden;
+}
+.home .content {
+	width: 550px;
+	background: #ffffff;
+	float: right;
+	padding: 50px;
+}
+.home .content h1 {
+	font: 700 36px 'Montserrat';
+	margin-bottom: 30px;
+}
+.home .content h2 {
+    font:  700 32px 'Montserrat';
+     color:  #45ac9d;
+    margin-bottom: 30px;
+}
+.home .content p {
+	font: 17px/1.9 'OpenSans', Arial, sans-serif;
+	margin-bottom: 24px;
+}
+.home .content p a {
+	font-weight: 700;
+	text-decoration: underline;
+	color: #3b3b3b;
+}
+.home .content .social-btns {
+	margin-bottom: 30px;
+}
+.home .content .social-btns a {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	margin-right: 5px;
+}
+.home .content .soc-icon.tw {
+	background: url(img/twitter-icon.png) no-repeat center 0;
+}
+.home .content .soc-icon.fb {
+	background: url(img/facebook-icon.png) no-repeat center 0;
+}
+.home .content .soc-icon.ln {
+	background: url(img/linkedin-icon.png) no-repeat center 0;
+}
+.home .content .soc-icon.db {
+	background: url(img/dribbble-icon.png) no-repeat center 0;
+}
+.home .btn {
+	background: #45ac9d;
+	color: #fff;
+	font: bold 1.17em/2.77 'Montserrat', 'OpenSans', Arial, sans-serif;
+	display: inline-block;
+	height: 55px;
+	min-width: 250px;
+	width: 100%;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none;
+}
+.home .btn .a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.home .btn .a:hover {
+    color:  #ffffff;
+    text-decoration: none;
+}
+
