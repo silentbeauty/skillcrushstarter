@@ -146,7 +146,7 @@ body {
 }
 body {
 	background: #fff;
-	border-top: 6px solid #45ac9d;
+	border-top: 6px solid #a97ac1;
 	color: #3b3b3b;
 	font: 17px/1.65 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.01em;
@@ -169,7 +169,7 @@ body {
 	float: left;
 }
 .page-header .top-logo .title {
-	color: #45ac9d;
+	color: #a97ac1;
 	font: bold 1.88em/1.3125 'Montserrat', 'OpenSans', Arial, sans-serif;
 	letter-spacing: -0.034em;
 	display: block;
@@ -222,10 +222,10 @@ body {
 	text-decoration: none;
 }
 .entry-title a:hover {
-	color: #45ac9d;
+	color: #a97ac1;
 }
 .entry-time {
-	color: #45ac9d;
+	color: #a97ac1;
 	font-weight: 600;
 	font-size: 0.82em;
 }
@@ -243,7 +243,7 @@ body {
 	display: block;
 }
 .entry-summary a {
-	color: #45ac9d;
+	color: #a97ac1;
 	text-decoration: underline;
 	font-weight: bold;
 }
@@ -311,10 +311,10 @@ body {
 	text-decoration: none;
 }
 .post-entry .read-more span {
-	color: #45ac9d; 
+	color: #a97ac1; 
 }
 .post-entry .read-more:hover {
-	border-bottom: 1px solid #45ac9d;
+	border-bottom: 1px solid #a97ac1;
 }
 .main-content .post-entry:last-child {
 	border-bottom: 0;
@@ -343,7 +343,7 @@ body {
 }
 #navigation .left a,
 #navigation .right a {
-	color: #45ac9d;
+	color: #a97ac1;
 	text-decoration: none;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -401,7 +401,7 @@ body {
 	float: right;
 }
 .comment-list .comment a {
-	color: #45ac9d;
+	color: #a97ac1;
 	text-decoration: none;
 }
 .comment-list .comment a:hover {
@@ -411,13 +411,13 @@ body {
 	font-weight: 600;
 }
 .comments-area .comment-reply-title {
-	color: #45ac9d;
+	color: #a97ac1;
 	font: bold 1.176em 'Montserrat', 'OpenSans', Arial, sans-serif;
 	text-transform: uppercase;
 	margin: 2em 0 1em;
 }
 .comments-area .comment-reply-title a {
-	color: #45ac9d;
+	color: #a97ac1;
 }
 .comments-area .comment-reply-title a:hover {
 	text-decoration: underline;
@@ -427,7 +427,7 @@ body {
 	padding-bottom: 23px;
 }
 .comments-area .comment-form p a {
-	color: #45ac9d;
+	color: #a97ac1;
 }
 .comments-area .comment-form p a:hover {
 	text-decoration: underline;
@@ -445,7 +445,7 @@ body {
 	padding: 5px 10px;
 }
 .comments-area .comment-form input[type="submit"] {
-	background: #45ac9d;
+	background: #a97ac1;
 	width: 206px;
 	height: 55px;
 	font: bold 1.3em/45px 'Montserrat', 'OpenSans', Arial, sans-serif;
@@ -466,6 +466,9 @@ body {
 	font: 14px/28px 'Open Sans';
 	margin-bottom: 20px;
 }
+#sidebar a {
+    color:  #a97ac1;
+}
 #sidebar .widget {
 	padding: 28px 31px;
 }
@@ -476,7 +479,11 @@ body {
 	max-width: 175px;
 	margin: auto;
 	display: block;
-	
+}
+#sidebar .widget-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #3b3b3b;
 }
 #sidebar .widget_text a {
 	color: #3b3b3b;
@@ -503,7 +510,7 @@ body {
 	border-left: none;
 	width: 35px;
 	height: 36px;
-	background: url('img/search-arrow.png') no-repeat 13px 10px #45ac9d;
+	background: url('img/search-arrow.png') no-repeat 13px 10px #a97ac1;
 	color: #ffffff;
 	margin-left: -5px;
 	vertical-align: middle;
@@ -514,7 +521,7 @@ body {
 #sidebar .widget_categories h2,
 #sidebar .widget_archive h2 {
 	font: 600 14px 'Open Sans';
-	color: #45ac9d;
+	color: #a97ac1;
 	margin-bottom: 20px;
 }
 #sidebar .widget_categories ul li,
@@ -558,10 +565,10 @@ body {
 	margin: 0.25em 0;
 	font: bold 1.47em/1.4 'Montserrat', sans-serif;
 	letter-spacing: -0.034em;
-	color: #45ac9d;
+	color: #a97ac1;
 }
 .default-page a {
-	color: #45acd9;
+	color: #a97ac1;
 	font-weight: 600;
 	text-transform: none;
 }
@@ -572,7 +579,7 @@ body {
 
 /* Homepage */
 .home {
-	background: url(img/Skillcrush_Computer.jpg) no-repeat center 0;
+	background: url(img/skillcrushstarter-landing-bg.jpg) no-repeat center 0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -598,7 +605,7 @@ body {
 }
 .home .content h2 {
     font:  700 28px 'Montserrat';
-     color:  #45ac9d;
+     color:  #a97ac1;
     margin-bottom: 30px;
 }
 .home .content p {
@@ -612,6 +619,7 @@ body {
 }
 .home .content .social-btns {
 	margin-bottom: 30px;
+    display:  inline-block;
 }
 .home .content .social-btns a {
 	display: inline-block;
@@ -632,7 +640,7 @@ body {
 	background: url(img/dribbble-icon.png) no-repeat center 0;
 }
 .home .btn {
-	background: #45ac9d;
+	background: #a97ac1;
 	color: #fff;
 	font: bold 1.17em/2.77 'Montserrat', 'OpenSans', Arial, sans-serif;
 	display: inline-block;
@@ -648,7 +656,4 @@ body {
     text-decoration: none;
 }
 
-.home .btn .a:hover {
-    color:  #ffffff;
-    text-decoration: none;
-}
+

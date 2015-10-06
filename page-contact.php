@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying pages
+ * The template for displaying about page
  *
  * @package WordPress
  * @subpackage Skillcrush_Starter
@@ -12,7 +12,7 @@ get_header(); ?>
 <section class="default-page">		
 	<div class="main-content">
 		<?php while ( have_posts() ) : the_post(); ?>
-			<h1 class="entry-title"><?php the_title(); ?></h2>
+			<h1 class="entry-title"><?php the_title(); ?></h1>
 			<article class="post-entry">
 				<?php the_content(); ?>
 			</article>

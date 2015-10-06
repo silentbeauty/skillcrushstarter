@@ -8,7 +8,7 @@
         </header>
         <div class="entry-summary">
             <?php the_content() ?>
-            <a href="<?php the_permalink(); ?>">Read more</a>
+            
         </div>
         <footer class="entry-footer">
             <div class="entry-meta">
